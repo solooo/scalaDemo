@@ -16,6 +16,7 @@ object HttpPostTester {
 //    val url = "http://192.168.1.82:8083/gms/auth/login?userName=admin&password=123456"
 //    val result = scala.io.Source.fromURL(url, "utf-8").mkString
 //    println(result)
+
     val str = fromUrlWithTimeout("http://192.168.1.82:8083/gms/auth/login?userName=admin&password=123456", 3000)
     println(str)
   }
