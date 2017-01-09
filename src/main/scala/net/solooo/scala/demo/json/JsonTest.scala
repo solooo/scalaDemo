@@ -1,6 +1,6 @@
-package scala.net.solooo.scala.demo.json
+package net.solooo.scala.demo.json
 
-import com.alibaba.fastjson.{JSON, JSONObject}
+import com.alibaba.fastjson.JSON
 
 
 /**
